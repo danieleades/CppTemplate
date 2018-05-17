@@ -4,4 +4,5 @@ cd $PWD/NewCppProject
 mkdir build
 rm -r .git
 rm NewCppProject
+rm install.sh
 git init
