@@ -1,0 +1,1 @@
+**A template directory for new c++ projects**
