@@ -8,5 +8,6 @@ include_directories(include)
 add_subdirectory(src)
 
 if(testing)
+    enable_testing()
     add_subdirectory(test)
 endif(testing)
