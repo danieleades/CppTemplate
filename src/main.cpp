@@ -4,11 +4,11 @@
 int main(int argc, char **argv)
 {
     // version checking
-    #ifdef VERSION
     if (argc == 2 && !strcmp(argv[1], "--version"))
     {
-        std::cout <<VERSION<< "\n";
+        std::cout << PROJECT_NAME<<'\n';
+        std::cout << "VERSION: " << VERSION << '\n';
+        std::cout << "COMPILED ON " << __DATE__ << " @ " << __TIME__ << std::endl;
         return 0;
     }
-    #endif
 }

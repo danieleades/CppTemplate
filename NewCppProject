@@ -1,10 +1,10 @@
 #!/bin/bash
 git clone https://github.com/danieleades/CppTemplate.git $PWD/NewCppProject
-cd $PWD/NewCppProject
+cd NewCppProject
 mkdir build
 rm -r .git
 rm NewCppProject
 rm install.sh
 rm README.md
-> README.md
+touch README.md
 git init
